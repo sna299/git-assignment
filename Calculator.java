@@ -9,6 +9,10 @@ public class Calculator {
         return a - b;
     }
 
+    public static int mulNumbers(int a, int b) {
+        return a * b;
+    }
+
     public static void main(String[] args) {
         int result1 = addNumbers(5, 3);
         System.out.println("The sum is: " + result);
